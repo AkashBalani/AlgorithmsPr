@@ -14,7 +14,7 @@ public class depthFirstSearch {
     }
 
     private Node getNode(int id){
-
+        nodeLookup.put(id, new Node(id));
     }
 
     private void addEdge(int source, int destination){
